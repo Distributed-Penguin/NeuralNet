@@ -15,3 +15,6 @@ class Node:
     
     def __mul__(self, other):
         return Node(self.num + other.num, (self, other))
+
+if __name__ == "__main__":
+    print("Hello World")
